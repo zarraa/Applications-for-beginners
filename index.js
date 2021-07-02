@@ -1,14 +1,12 @@
 document.getElementById("btn").onclick = function () {
   // this for player 1
-  var rondomImages1 = Math.floor(Math.random() * 6) + 1;
+    var rondomImages1 = Math.floor(Math.random() * 6) + 1;
 
-  var rimageNumber1 = "dice" + rondomImages1 + ".png";
+  var rimageNumber1 = "images/dice" + rondomImages1 + ".png";
 
-  var imagename1 = "images/" + rimageNumber1;
-
-  var player1 = document.querySelectorAll("img")[0];
-
-  player1.setAttribute("src", imagename1);
+  var player1 = document
+    .querySelectorAll("img")[1]
+    .setAttribute("src", rimageNumber1);
 
   // this for player 2
 
