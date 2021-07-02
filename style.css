@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: #393e46;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 30px;
+  font-size: 4rem;
+  font-family: "Lobster Two", cursive;
+}
+
+.dice {
+  display: inline-block;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+}
+
+img {
+  width: 80%;
+}
+
+#btn {
+  width: 6rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-top: 3rem;
+  position: relative;
+  bottom: 1rem;
+  font-weight: bold;
+  font-family: "Lobster Two", cursive;
+}
+
+.btn:hover {
+  background-color: tomato;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+}
