@@ -1,6 +1,6 @@
 document.getElementById("btn").onclick = function () {
   // this for player 1
-    var rondomImages1 = Math.floor(Math.random() * 6) + 1;
+    var rondomImages1 = Math.trunc(Math.random() * 6) + 1;
 
   var rimageNumber1 = "images/dice" + rondomImages1 + ".png";
 
